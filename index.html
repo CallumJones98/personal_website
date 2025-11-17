@@ -4,51 +4,286 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Callum Jones | Software Engineer</title>
   </head>
   <body>
-    <header>
+    <header class="site_header">
       <nav class="nav_bar">
-        <h1><a href="index.html" id="logo">Callum Jones</a></h1>
-
+        <h1>
+          <a href="#top" id="logo">Callum Jones</a>
+        </h1>
         <ul class="nav_links">
-          <li><a class="nav_text" href="#">About</a></li>
-          <li><a class="nav_text" href="#">Projects</a></li>
+          <li><a class="nav_text" href="#about">About</a></li>
+          <li><a class="nav_text" href="#projects">Projects</a></li>
           <li><a class="nav_text" href="#">Insights</a></li>
           <li><a class="nav_text" href="#">Contact Me</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="part_one">
-      <div class="one_left">
-        <p class="part_one_text">
-          Passionate about
-          <span id="one_one_text">software development</span>, from
-          <span id="one_two_text">front-end interfaces</span> to
-          <span id="one_three_text">back-end logic</span> and
-          <span id="one_four_text">databases</span>
-        </p>
+    <main id="top">
+      <!-- HERO / PART ONE -->
+      <section class="part_one">
+        <div class="one_left">
+          <p class="part_one_text">
+            Passionate about
+            <span id="one_one_text">software development</span>, from
+            <span id="one_two_text">front-end interfaces</span> to
+            <span id="one_three_text">back-end logic</span> and
+            <span id="one_four_text">databases</span>
+          </p>
+          <p class="part_one_subtext">
+            I am an aspiring Software Engineer with 5 years experience
+            partnering with CIO/CTO/CISO's on strategic leadership now looking
+            to transition into development. I have recently completed my Masters
+            in Computer Science (Conversion) from Queen Mary University London,
+            achieving a Distinction.
+          </p>
 
-        <p class="part_one_subtext">
-          I am an aspiring Software Engineer with 5 years experience partnering
-          with CIO/CTO/CISO's on strategic leadership now looking to transition
-          into development. I have recently completed my Masters in Computer
-          Science (Conversion) from Queen Mary University London, achieving a
-          Distinction.
-        </p>
-
-        <div class="button_container">
-          <button>Linkedin</button>
-          <button>Github</button>
+          <div class="button_container">
+            <a href="https://www.linkedin.com/in/callumcjjones/" class="button"
+              >Linkedin</a
+            >
+            <a href="https://github.com/CallumJones98" class="button">Github</a>
+          </div>
         </div>
-      </div>
 
-      <div class="one_right">
-        <div class="one_right_overlay">
-          <img src="img/code_image.jpg" alt="Overlay image" />
+        <div class="one_right">
+          <div class="one_right_overlay">
+            <img src="img/code_image.jpg" alt="Overlay image" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="part_two">
+        <div class="two_container">
+          <div class="two_left">
+            <img
+              src="img/default_avatar.png"
+              alt="avatar image"
+              class="avatar_image"
+            />
+            <p><span class="two_label">Name:</span> Callum Jones</p>
+            <p><span class="two_label">Age:</span> 27</p>
+            <p><span class="two_label">Location:</span> London, UK</p>
+            <p>
+              <span class="two_label">Qualifications:</span><br />
+              BA, History, Swansea University<br />
+              MSc, Computer Science (Conversion), QMUL
+            </p>
+          </div>
+
+          <div class="two_right">
+            <h2 class="two_heading">About Me</h2>
+            <p class="two_about">
+              I’m an aspiring Software Engineer with a background in technology
+              leadership and stakeholder collaboration. Over the past five years
+              I’ve worked closely with CIOs, CTOs and CISOs on strategic
+              initiatives, giving me a strong understanding of how technical
+              decisions connect to business outcomes and real-world constraints.
+              <br /><br />
+              I recently completed an MSc in Computer Science (Conversion) at
+              Queen Mary University of London, achieving a Distinction, building
+              on my BA in History from Swansea University. This mix of technical
+              training and humanities has given me a balance of analytical
+              thinking, clear communication and attention to detail.
+              <br /><br />
+              I’m particularly interested in full-stack development, writing
+              clean, maintainable code and building products that solve real
+              problems for users. I enjoy learning new tools and technologies,
+              working in collaborative teams, and continuously improving both my
+              technical skills and the way I approach software design.
+              <br /><br />
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills_section">
+        <div class="skills_container">
+          <h2 class="skills_heading">Skills</h2>
+
+          <div class="skills_grid">
+            <!-- Front-end -->
+            <div class="skill_column">
+              <h3 class="skill_title">Front-end</h3>
+              <div class="skill_icons">
+                <div class="skill_item">
+                  <img src="img/html_logo.png" alt="HTML5 logo" />
+                  <span>HTML5</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/css_logo.png" alt="CSS3 logo" />
+                  <span>CSS3</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/javascript_logo.png" alt="JavaScript logo" />
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/react_logo.png" alt="React logo" />
+                  <span>React</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Back-end -->
+            <div class="skill_column">
+              <h3 class="skill_title">Back-end</h3>
+              <div class="skill_icons">
+                <div class="skill_item">
+                  <img src="img/java_logo.png" alt="Java logo" />
+                  <span>Java</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/C_Logo.png" alt="C logo" />
+                  <span>C</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/python_logo.png" alt="Python logo" />
+                  <span>Python</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill_column">
+              <h3 class="skill_title">Databases</h3>
+              <div class="skill_icons">
+                <div class="skill_item">
+                  <img src="img/Postgresql_logo.png" alt="PostgreSQL logo" />
+                  <span>PostgreSQL</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/mysql_logo.png" alt="MySQL logo" />
+                  <span>MySQL</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/mongodb_logo.png" alt="MongoDB logo" />
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/aws_logo.png" alt="AWS logo" />
+                  <span>AWS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools & DevOps -->
+            <div class="skill_column">
+              <h3 class="skill_title">Tools &amp; DevOps</h3>
+              <div class="skill_icons">
+                <div class="skill_item">
+                  <img src="img/git_logo.png" alt="Git logo" />
+                  <span>Git</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/github_logo.png" alt="GitHub logo" />
+                  <span>GitHub</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/docker_logo.png" alt="Docker logo" />
+                  <span>Docker</span>
+                </div>
+                <div class="skill_item">
+                  <img src="img/kubernetes_logo.png" alt="Kubernetes logo" />
+                  <span>Kubernetes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS + CAROUSEL -->
+      <section id="projects" class="projects_section">
+        <div class="projects_container">
+          <h2 class="projects_heading">Projects</h2>
+
+          <div class="carousel">
+            <!-- Card 1 -->
+            <a class="card" href="https://github.com/CallumJones98">
+              <div class="card-logo">
+                <img src="img/css_logo.png" alt="CSS logo" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Personal Website</h3>
+                <ul class="card-tech">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive Web Design</li>
+                </ul>
+                <p class="card-description">
+                  A responsive personalised website that allows a user to
+                  interact with pages specific to the individual.
+                </p>
+              </div>
+            </a>
+
+            <!-- Card 2 -->
+            <a class="card" href="https://github.com/CallumJones98">
+              <div class="card-logo">
+                <img src="img/R_logo.png" alt="R logo" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">FTSE Bayesian Network</h3>
+                <ul class="card-tech">
+                  <li>R</li>
+                  <li>ML</li>
+                  <li>Bayesian Statistics</li>
+                </ul>
+                <p class="card-description">
+                  A Bayesian Network built using FTSE all-share data. This
+                  involved data pre-processing, imputation and analysis of
+                  10,000 variables using a Gaussian dynamic Bayesian model.
+                </p>
+              </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a class="card" href="https://github.com/CallumJones98">
+              <div class="card-logo">
+                <img src="img/python_logo.png" alt="Python logo" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Monthly Financial Planning Tool</h3>
+                <ul class="card-tech">
+                  <li>Python</li>
+                  <li>Pandas</li>
+                  <li>Numpy</li>
+                </ul>
+                <p class="card-description">
+                  An interactive monthly financial planning tool that allows a
+                  user to input their spending and returns analysis on habits,
+                  future savings and recommendations.
+                </p>
+              </div>
+            </a>
+
+            <!-- Card 4 -->
+            <a class="card" href="https://github.com/CallumJones98">
+              <div class="card-logo">
+                <img src="img/figma_logo.svg" alt="Figma logo" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Alzheimers Application</h3>
+                <ul class="card-tech">
+                  <li>Figma</li>
+                  <li>UI Design</li>
+                  <li>UX Research</li>
+                </ul>
+                <p class="card-description">
+                  A fully fledged application wireframe built as part of my MSc
+                  Design module. The wireframe followed extensive UX research
+                  and interviews, paired with a physical multi-modal device.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
